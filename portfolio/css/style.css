@@ -454,6 +454,10 @@ header .intro-text .intro-heading h1 {
 
 .web-bg { background-color:#f8f8f8;}
 
+.load-more_web, .load-more_graphic{
+	background: lightgray;
+}
+
 figure {
 	position: relative;
 	overflow: hidden;
