@@ -32,9 +32,9 @@
 
 @font-face{
 	font-family:"TmonMonsori";
-	src:url('font/TmonMonsori.eot');
-	src:url('font/TmonMonsori.eot?#iefix') format('embedded-opentype'),
-	url('font/TmonMonsori.woff') format('woff'),
-	url('font/TmonMonsoric.ttf') format('truetype');
+	src:url('../font/TmonMonsori.eot');
+	src:url('../font/TmonMonsori.eot?#iefix') format('embedded-opentype'),
+	url('../font/TmonMonsori.woff') format('woff'),
+	url('../font/TmonMonsoric.ttf') format('truetype');
 	src:local(※), url('/font/TmonMonsori.woff') format('woff');
 }
