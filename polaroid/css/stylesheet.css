@@ -29,10 +29,12 @@
 	font-weight: 500;
 	font-style: normal;
 }
+
 @font-face{
 	font-family:"TmonMonsori";
-	src:url('/fonts/TmonMonsori.eot');
-	src:url('/fonts/TmonMonsori.eot?#iefix') format('embedded-opentype'),
-	url('/fonts/TmonMonsori.otf') format('opentype'),
-	url('/fonts/TmonMonsori.ttf') format('truetype');
-	src:local(※), url('/fonts/NanumGothic.ttf') format('truetype');
+	src:url('font/TmonMonsori.eot');
+	src:url('font/TmonMonsori.eot?#iefix') format('embedded-opentype'),
+	url('font/TmonMonsori.woff') format('woff'),
+	url('font/TmonMonsoric.ttf') format('truetype');
+	src:local(※), url('/font/TmonMonsori.woff') format('woff');
+}
