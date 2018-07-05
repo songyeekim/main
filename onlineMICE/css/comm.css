@@ -140,8 +140,13 @@ body{
 .col2{
 	position: relative;
 }
-.col2 img{
+.col2 a{
+	display: block;
 	width: 100%;
+	height: 80px;
+	background:  url(../images/banner.png) 0 0 no-repeat;
+	background-size: cover;
+	background-position: right bottom;
 }
 .col2 .col2_txt{
 	position: absolute;
@@ -245,7 +250,7 @@ body{
 	left: 0;
 	z-index: 200;
 	width: 300px;
-	height: 800px;
+	height: 789px;
 	background: #fff;
 }
 .log_box{
