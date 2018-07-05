@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>빽다방</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/comm.css">
+
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<h1>
+				<a href="index.html">빽다방</a>
+			</h1>
+			<div class="head_mini">
+				<ul class="global_menu">
+					<li class="on"><a href="index.html">브랜드 사이트</a></li>
+					<li><a href="#더본홈">기업 사이트</a></li>
+				</ul>
+				<ul class="gnb_sns">
+					<li><a href="#블로그"><span class="blind">블로그</span></a></li>
+					<li><a href="#페이스북"><span class="blind">페이스북</span></a></li>
+					<li><a href="#인스타그램"><span class="blind">인스타그램</span></a></li>
+				</ul>
+			</div>			
+			<div class="gnb">			
+				<h2>메인메뉴</h2>	
+				<ul class="menu_depth1">
+					<li><a href="index1-1.html" class="on">빽다방</a>
+						<ul class="menu_depth2">
+							<li><a href="index1-1.html">회사소개</a></li>
+							<li><a href="index1-2.html">회사연혁</a></li>
+							<li><a href="index1-3.html">브랜드 컨셉</a></li>
+						</ul>
+					</li>
+					<li><a href="index2-1.html">메뉴</a>
+						<ul class="menu_depth2">
+							<li><a href="#2-1p">커피</a></li>
+							<li><a href="#">음료</a></li>
+							<li><a href="#">티</a></li>
+							<li><a href="#">베이커리</a></li>
+							<li><a href="#">디저트</a></li>
+						</ul>
+					</li>
+					<li><a href="index3-1.html">매장안내</a></li>
+					<li><a href="index4-1.html">가맹안내</a>
+						<ul class="menu_depth2">
+							<li><a href="#4-1p">창업절차</a></li>
+							<li><a href="index4-2.html">창업조건</a></li>
+							<li><a href="index4-3.html">창업문의</a></li>
+						</ul>
+					</li>
+					<li><a href="index5-1.html">소식</a></li>
+					<li><a href="http://www.theborn.co.kr/custom-sound/">고객센터</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="slideimg">
+			 <!-- Swiper -->
+		  <div class="swiper-container">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide"><a href="#"><img src="imgs/mainpage/slideimg1.jpg" alt="차한잔의여유"></a></div>
+		      <div class="swiper-slide"><a href="#"><img src="imgs/mainpage/slideimg2.jpg" alt="맥앤치즈빵"></a></div>
+		      <div class="swiper-slide"><a href="#"><img src="imgs/mainpage/slideimg3.jpg" alt="비엔나커피"></a></div>
+		      <div class="swiper-slide"><a href="#"><img src="imgs/mainpage/slideimg4.jpg" alt="더본신한카드출시"></a></div>
+		    </div>
+		    <!-- Add Pagination -->
+		    <div class="swiper-pagination"></div>		  
+		  </div>
+
+		  <!-- Swiper JS -->
+		  <script src="js/swiper.min.js"></script>
+
+		  <!-- Initialize Swiper -->
+		  <script>
+		    var swiper = new Swiper('.swiper-container', {
+		      spaceBetween: 30,
+		      centeredSlides: true,
+		      autoplay: {
+		        delay: 2500,
+		        disableOnInteraction: false,
+		      },
+		      pagination: {
+		        el: '.swiper-pagination',
+		        clickable: true,
+		      },
+		      navigation: {
+		        nextEl: '.swiper-button-next',
+		        prevEl: '.swiper-button-prev',
+		      },
+		    });
+		  </script>
+		</div>
+		<div class="contents">
+			<div class="section_store">
+				<a href="#4-1p">
+				<h2>가맹점 개설 안내</h2>
+				<p>성공 창업을 위한 선택</p>
+				</a>
+			</div>
+			<div class="section_search">
+				<h2>매장찾기</h2>
+				<p>가까운 빽다방 매장을<br>
+				찾아보세요.</p>
+				<div class="searchbox">
+					<form name="findstore" action="#3p">
+						<input type="text" name="검색창" value="입력하세요">
+						
+					</form>
+				</div>
+			</div>
+			<div class="section_bbs">
+				<div class="bbs">
+				<h2>빽다방 소식</h2>
+				<ul>
+					<li>
+						<a href="#5p_첫글">&#91;소식&#93; 부드러운 '비엔나커피 3종' 출시! 가까운 매장에서 만나보세요.</a>
+						<span>2018.02.21</span>
+					</li>
+					<li>
+						<a href="#5p_두번째">&#91;소식&#93; 빽다방 커피 서포터즈 '빽스타' 모집</a>
+						<span>2018.02.13</span>
+					</li>
+					<li>
+						<a href="#5p_세번째">&#91;이벤트&#93; &#35;빽다방열한살축하해 페이스북 이벤트 당첨자 발표</a>
+						<span>2017.12.20</span>
+					</li>
+					<li>
+						<a href="#5p_네번째">&#91;이벤트&#93; &#35;빽다방열한살축하해 인스타그램 이벤트 당첨자 발표</a>
+						<span>2017.12.20</span>
+					</li>
+				</ul>
+				<div class="more_btn">
+					<a href="#5p">more &#62;</a>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="footer_wrap">
+			<div class="footer">
+				<a href="#더본홈">더본코리아</a>
+				<div class="copyright">
+				<address>
+				&#40;주&#41;더본코리아 | 사업자등록번호 211-86-00870 | 대표이사 백종원<br>
+				주소 : 서울시 강남구 봉은사로 1길 39 유성빌딩 4-6층 <br>
+				대표전화 : 02-549-3843, 팩스 : 02-511-3864, 빽다방 창업문의 : 070-4161-4694</address>
+					COPYRIGHTⓒ 2015 THEBORN KOREA INC. ALL RIGHTS RESERVED
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

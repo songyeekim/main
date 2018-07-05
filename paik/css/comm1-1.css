@@ -1,0 +1,194 @@
+/*@import url(comm.css);*/
+
+.header{
+	height: 100px;
+}
+/*contents menu layout*/
+/*.tab_list{
+	display: block;
+	overflow: hidden;
+	width: 603px;
+	border: 1px solid #8a8a8a;
+	border-right: none;
+	margin: 15px auto;
+}
+.tab_list li{
+	float: left;
+	width: 200px;
+	border-right: 1px solid #8a8a8a;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+}
+.tab_list a {
+	display: block;
+}
+.tab_list a:hover{
+	font-weight: bold;
+}
+.tab_list .on{
+	font-weight: bold;
+}*/
+/*contents layout*/
+.contents_wrap:before {
+	display: block;
+	width: 1100px;
+	height: 140px;
+	background: url(../imgs/subpage/sub1/titimg.png) 0 0 no-repeat;
+	content: '';
+}
+.contents{
+	height: 100%;
+	margin:0 auto; 
+	background:  url(../imgs/subpage/sub_cafe.png) right bottom no-repeat;	
+}
+/*tablistlayout*/
+.tab_comm {
+	position: relative;
+	margin-top: 50px;
+}
+.tab_comm li .link_tab {
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 200px;
+	height: 30px;
+	border: 1px solid #8a8a8a;
+	border-right: none;
+	box-sizing: border-box;
+	font-size: 16px;
+	text-align: center;
+	line-height: 2;
+}
+.tab_comm li:first-child a {
+	left: 23%;		
+}
+.tab_comm li:nth-child(2) a {
+	left: 41%;
+}
+.tab_comm li:last-child a {
+	right: 23%;
+	border-right: 1px solid #8a8a8a;
+}
+.tab_comm li.click_on a {
+	font-weight: bold;
+}
+.tab_comm .tab_cont {
+	display: none;
+}
+.tab_comm .click_on .tab_cont {
+	display: block;
+}
+/*page1layout*/
+.companystory{
+	width: 785px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+.companystory img{
+	float: left;
+	margin: 20px;
+}
+.companystory .year_txt{
+	font-size: 40px;
+	font-weight: bold;
+}
+.companystory p{
+	font-size: 20px;
+}
+/*page2layout*/
+.companyhistory{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.history_list{
+	float: left;
+	width: 100%;
+	margin: 70px 0;
+	background:  url(../imgs/subpage/sub1/sub1-2/sub_line.png) center repeat-y;
+	text-align: center;
+}
+.list_right,.list_left{
+	width: 50%;
+	margin-bottom: 50px;
+	background:  url(../imgs/subpage/sub1/sub1-2/sub_dot.png) 0 0 no-repeat;
+}
+.list_right{
+	position: relative;
+	float: right;
+	padding-left: 8px;
+}
+.list_left{
+	position: relative;
+	float: left;
+	padding-right: 9px;
+	background-position-x: right;
+}
+.list_right .year{
+	margin: -11px -120px 25px;
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold;
+}
+.list_left .year{
+	margin: -11px -120px 25px;
+	text-align: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+.list_right img{
+	position: absolute;
+	top: 50px;
+	left: -350px;
+}
+.list_left img{
+	position: absolute;
+	top: 65px;
+	right: -320px;
+}
+.history_list .year_txt{
+	font-size: 20px;
+	font-weight: bold;
+}
+.history_list .year_txt1{
+	margin: 70px 0;
+	font-size: 24px;
+	font-weight: bold;
+}
+/*page3layout*/
+.brandconcept{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.concept_list{
+	text-align: center;
+	margin-bottom: 140px;
+}
+.concept_list li{
+	display: inline-block;
+	margin: 0 55px;
+	padding-top: 150px;
+}
+.concept_list  li:nth-child(1){
+	background:  url(../imgs/subpage/sub1/sub1-3/sub_line1.png) center top no-repeat;
+}
+.concept_list li:nth-child(2){
+	background:  url(../imgs/subpage/sub1/sub1-3/sub_line2.png) center top no-repeat;
+}
+.concept_list li:nth-child(3){
+	background:  url(../imgs/subpage/sub1/sub1-3/sub_line3.png) center top no-repeat;
+}
+.concept_list .con_txt{
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+/*.concept_list p{
+	font-size: 16px;
+}*/
+/*footer desgin*/
+.footer_wrap{
+	margin-top: 0;
+}
