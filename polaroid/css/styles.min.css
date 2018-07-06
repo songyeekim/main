@@ -4645,20 +4645,34 @@ img {
 	display: -ms-flexbox;
 	display: flex
 }
+@media screen and (max-width:767px){
+	#site-link{
+		top: 28px;
+		right: 10px;
+	}
+	#site-link img{
+		width: 80%;
+	}
+}
 
 #site-link li {
 	margin: 0 5px;
 	padding: 0;
 	display: inline-block
 }
+@media screen and (max-width:767px){
+	#site-link li{
+		margin: 0;
+	}
+}
 
 #site-link li a {
 	padding: 0 5px;
 	display: inline-block;
 	line-height: 20px;
-	font-size: 1.95rem;
 	color: #fff
 }
+
 
 #site-link li a svg {
 	position: relative;
@@ -4673,14 +4687,6 @@ img {
 	padding: 0 10px;
 	position: relative;
 	z-index: 1;
-	font-size: 1.95rem;
-	letter-spacing: .06em;
-/*
-	-webkit-transition: all .5s ease;
-	-moz-transition: all .5s ease;
-	transition: all .5s ease;
-*/
-	font-weight: 500
 }
 
 #site-link li a.shop:before {
@@ -5143,7 +5149,7 @@ html.touchevents .video-wrapper {
 	font-size: -moz-calc(.8rem + 1.3vw);
 	font-size: calc(.8rem + 1.3vw);
 	text-transform: uppercase;
-	margin: 0 0 25px;
+	margin: 0 0 30px;
 	text-align: center
 }
 
@@ -5393,7 +5399,7 @@ html.tablet #chapters-menu-bg li > video {
 }
 
 .chapter-wrapper .nav-link:before {
-	content: "SCOPRI";
+	content: "!!!";
 	white-space: nowrap;
 	font-size: -webkit-calc(.9rem + .35vw);
 	font-size: -moz-calc(.9rem + .35vw);
@@ -5408,7 +5414,7 @@ html.tablet #chapters-menu-bg li > video {
 	transform: translateY(-50%);
 	color: #fff;
 	opacity: 0;
-	text-transform: uppercase
+	text-transform: uppercase;
 }
 
 .chapter-wrapper .nav-link:after,
